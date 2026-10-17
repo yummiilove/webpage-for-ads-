@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Little Wins Club — Make today feel a little better</title>
+  <meta name="description" content="A friendly corner of the internet for tiny resets, feel-good ideas, simple routines, and small wins that make everyday life better.">
+  <meta name="theme-color" content="#f7f3ec">
+  <link rel="canonical" href="https://example.com/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="announcement">A little reminder: you don't have to do it all today. <span>♡</span></div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Little Wins Club home"><span class="brand-mark">✳</span><span>little wins<span class="brand-sub">CLUB</span></span></a>
+    <nav aria-label="Main navigation">
+      <a href="#reset">Daily reset</a><a href="#ideas">Tiny ideas</a><a href="#journal">Journal prompt</a>
+    </nav>
+    <a class="header-cta" href="#reset">Find your next win <span>↗</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> YOUR FRIENDLY DAILY RESET</div>
+        <h1>Small steps.<br><em>Better days.</em></h1>
+        <p class="hero-text">A softer place to land on the internet. Find a tiny thing to do, reset your head, and make today feel a little more like yours.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#reset">Let’s reset <span>↘</span></a><a class="text-link" href="#ideas">Just browsing? <span>→</span></a></div>
+        <div class="hero-note"><div class="avatar-stack"><span>☀</span><span>♡</span><span>✿</span></div><span>For the days when “one thing” is enough.</span></div>
+      </div>
+      <div class="hero-art" aria-label="Illustration of a sunny, peaceful morning" role="img">
+        <div class="sun"></div><div class="cloud cloud-one"></div><div class="cloud cloud-two"></div>
+        <div class="hill hill-back"></div><div class="hill hill-front"></div>
+        <div class="art-note"><span class="note-star">✳</span><span>today can be<br><strong>a fresh start</strong></span></div>
+        <div class="art-stamp">TAKE IT<br>ONE DAY<br>AT A TIME</div>
+      </div>
+    </section>
+
+    <div class="ticker"><span>LESS PRESSURE</span><b>✳</b><span>MORE PRESENCE</span><b>✳</b><span>TINY WINS COUNT</span><b>✳</b><span>YOU’RE DOING OKAY</span><b>✳</b></div>
+
+    <section class="section reset-section" id="reset">
+      <div class="section-heading"><div><div class="eyebrow">01 / CHECK IN WITH YOURSELF</div><h2>What do you need <em>right now?</em></h2></div><p>No perfect routine required. Pick what sounds good and we’ll find you one small next step.</p></div>
+      <div class="mood-grid" role="group" aria-label="Choose how you feel">
+        <button class="mood-card" data-mood="tired"><span class="mood-icon">☁</span><strong>A softer day</strong><small>I’m tired or overwhelmed</small><span class="mood-arrow">↗</span></button>
+        <button class="mood-card" data-mood="stuck"><span class="mood-icon">↗</span><strong>A little momentum</strong><small>I feel stuck or distracted</small><span class="mood-arrow">↗</span></button>
+        <button class="mood-card" data-mood="happy"><span class="mood-icon">☼</span><strong>Make it count</strong><small>I have some good energy</small><span class="mood-arrow">↗</span></button>
+        <button class="mood-card" data-mood="social"><span class="mood-icon">♡</span><strong>Feel connected</strong><small>I want a little human magic</small><span class="mood-arrow">↗</span></button>
+      </div>
+      <div class="suggestion-panel" id="suggestion" aria-live="polite">
+        <div class="suggestion-icon">✳</div><div><span class="suggestion-label">YOUR TINY NEXT STEP</span><h3>Choose a feeling above</h3><p>We’ll give you one small, doable idea. No overhauling your life required.</p></div><button class="shuffle-button" id="another-idea" type="button" hidden>Another idea ↻</button>
+      </div>
+    </section>
+
+    <div class="ad-wrap" aria-label="Advertisement area">
+      <div class="ad-label">ADVERTISEMENT</div>
+      <div class="ad-slot"><span class="ad-spark">✳</span><div><strong>Your ad can live here</strong><p>Replace this placeholder with your approved ad network code after your site is accepted.</p></div></div>
+    </div>
+
+    <section class="section ideas-section" id="ideas">
+      <div class="section-heading"><div><div class="eyebrow">02 / LITTLE THINGS, BIG DIFFERENCE</div><h2>A few ideas for <em>real life.</em></h2></div><a class="text-link" href="#journal">Keep exploring <span>→</span></a></div>
+      <div class="idea-grid">
+        <article class="idea-card idea-peach"><div class="idea-top"><span class="idea-number">01</span><span class="idea-symbol">☕</span></div><div><div class="tag">THE 10-MINUTE RESET</div><h3>Make your space<br>feel lighter</h3><p>Put on one song. Clear one surface. Stop when the song ends. That's the whole assignment.</p><span class="idea-time">10 MIN · LOW EFFORT</span></div></article>
+        <article class="idea-card idea-green"><div class="idea-top"><span class="idea-number">02</span><span class="idea-symbol">🌱</span></div><div><div class="tag">A GENTLER ROUTINE</div><h3>Build a tiny<br>morning ritual</h3><p>Water, daylight, and a moment without scrolling. Start with two minutes, not a 5 AM miracle.</p><span class="idea-time">2 MIN · EVERYDAY</span></div></article>
+        <article class="idea-card idea-lilac"><div class="idea-top"><span class="idea-number">03</span><span class="idea-symbol">✉</span></div><div><div class="tag">A LITTLE CONNECTION</div><h3>Send the text<br>you keep meaning to</h3><p>A “thinking of you” message can be the easiest way to make someone’s day — including yours.</p><span class="idea-time">1 MIN · FEEL-GOOD</span></div></article>
+      </div>
+    </section>
+
+    <section class="journal-section" id="journal">
+      <div class="journal-decor">“</div><div class="journal-content"><div class="eyebrow">03 / A MOMENT FOR YOU</div><h2>Today's journal <em>prompt.</em></h2><p id="prompt-text">What is one thing you can make easier for yourself this week?</p><button class="button button-light" id="new-prompt" type="button">Give me another <span>↻</span></button></div>
+      <div class="journal-side"><span class="side-flower">✿</span><p>You don’t need to have it all figured out to take the next step.</p><span class="side-caption">A NOTE FROM US TO YOU</span></div>
+    </section>
+
+    <section class="section habit-section">
+      <div class="habit-copy"><div class="eyebrow">A SMALL PROMISE TO YOURSELF</div><h2>Collect your<br><em>little wins.</em></h2><p>Pick one tiny habit and give yourself credit each day you show up. Your check-ins stay in this browser.</p><label class="habit-label" for="habit-name">MY TINY HABIT</label><div class="habit-input-row"><input id="habit-name" maxlength="48" placeholder="e.g. Take a short walk"><button class="button button-dark" id="save-habit" type="button">Save habit</button></div><div class="habit-feedback" id="habit-feedback" aria-live="polite"></div></div>
+      <div class="habit-board"><div class="board-header"><div><span class="board-kicker">YOUR WEEK, YOUR WAY</span><h3 id="habit-title">One day at a time</h3></div><span class="board-flower">✳</span></div><div class="week-grid" id="week-grid"></div><div class="board-footer"><span id="streak-count">0 of 7 little wins</span><span class="board-motto">PROGRESS, NOT PERFECT.</span></div><button id="reset-week" class="reset-week" type="button">Start a fresh week ↻</button></div>
+    </section>
+
+    <section class="newsletter-section">
+      <div class="newsletter-flower">✳</div><div><div class="eyebrow">A GOOD THING TO COME BACK TO</div><h2>Make room for <em>good things.</em></h2><p>Bookmark this page and come back whenever you need a small reset.</p></div><button class="button button-dark" id="bookmark-tip" type="button">Save this reminder <span>♡</span></button>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="index.html"><span class="brand-mark">✳</span><span>little wins<span class="brand-sub">CLUB</span></span></a><p>A small corner for a better everyday.</p><div class="footer-links"><a href="about.html">About</a><a href="privacy.html">Privacy</a><a href="contact.html">Contact</a></div><span class="copyright">© <span id="year"></span> Little Wins Club</span></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
